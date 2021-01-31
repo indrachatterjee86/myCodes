@@ -135,7 +135,8 @@ int main(){
     const char *no = "no";
     UINT chessBoard[BOARD_ROW][BOARD_COL] = {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}};
     displayBoard(chessBoard);
-    printf("Can 5 Queens be placed in 4x4 board : %s", NQueens(chessBoard, 5)== TRUE? yes:no);
+    printf("Can 3 Queens be placed in 4x4 board : %s \n", NQueens(chessBoard, 4)== TRUE? yes:no);
+    displayBoard(chessBoard);
     return 0;
 }
 
