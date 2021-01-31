@@ -1,5 +1,5 @@
 {
-  "name": "SMSDecider",
+  "name": "sms-decider",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,13 @@
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
